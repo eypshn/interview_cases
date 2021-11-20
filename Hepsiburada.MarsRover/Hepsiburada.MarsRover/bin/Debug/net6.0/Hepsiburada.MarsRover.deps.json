@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Hepsiburada.MarsRover/1.0.0": {
+        "dependencies": {
+          "Hepsiburada.MarsRover.Business": "1.0.0",
+          "Hepsiburada.MarsRover.Core": "1.0.0"
+        },
+        "runtime": {
+          "Hepsiburada.MarsRover.dll": {}
+        }
+      },
+      "Hepsiburada.MarsRover.Business/1.0.0": {
+        "dependencies": {
+          "Hepsiburada.MarsRover.Common": "1.0.0",
+          "Hepsiburada.MarsRover.Core": "1.0.0"
+        },
+        "runtime": {
+          "Hepsiburada.MarsRover.Business.dll": {}
+        }
+      },
+      "Hepsiburada.MarsRover.Common/1.0.0": {
+        "runtime": {
+          "Hepsiburada.MarsRover.Common.dll": {}
+        }
+      },
+      "Hepsiburada.MarsRover.Core/1.0.0": {
+        "runtime": {
+          "Hepsiburada.MarsRover.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hepsiburada.MarsRover/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hepsiburada.MarsRover.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hepsiburada.MarsRover.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hepsiburada.MarsRover.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

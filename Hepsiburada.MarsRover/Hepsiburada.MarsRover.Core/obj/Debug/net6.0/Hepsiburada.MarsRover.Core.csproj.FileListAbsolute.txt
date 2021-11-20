@@ -1,0 +1,12 @@
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\bin\Debug\net6.0\Hepsiburada.MarsRover.Core.deps.json
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\bin\Debug\net6.0\Hepsiburada.MarsRover.Core.dll
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\bin\Debug\net6.0\ref\Hepsiburada.MarsRover.Core.dll
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\bin\Debug\net6.0\Hepsiburada.MarsRover.Core.pdb
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\obj\Debug\net6.0\Hepsiburada.MarsRover.Core.csproj.AssemblyReference.cache
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\obj\Debug\net6.0\Hepsiburada.MarsRover.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\obj\Debug\net6.0\Hepsiburada.MarsRover.Core.AssemblyInfoInputs.cache
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\obj\Debug\net6.0\Hepsiburada.MarsRover.Core.AssemblyInfo.cs
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\obj\Debug\net6.0\Hepsiburada.MarsRover.Core.csproj.CoreCompileInputs.cache
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\obj\Debug\net6.0\Hepsiburada.MarsRover.Core.dll
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\obj\Debug\net6.0\ref\Hepsiburada.MarsRover.Core.dll
+E:\Git_Repos\interview_cases\Hepsiburada.MarsRover\Hepsiburada.MarsRover.Core\obj\Debug\net6.0\Hepsiburada.MarsRover.Core.pdb
