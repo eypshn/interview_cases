@@ -35,7 +35,7 @@ namespace MarsRover.Business
         /// <inheritdoc />
         public string GetLocation()
         {
-            return $"{this.RoverState.GetPosition().X} {this.RoverState.GetPosition().Y} {this.RoverState}"; 
+            return $"{this.RoverState.GetPosition().X}{this.RoverState.GetPosition().Y}{this.RoverState}"; 
         }
     }
 }

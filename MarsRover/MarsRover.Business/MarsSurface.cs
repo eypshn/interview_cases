@@ -26,7 +26,7 @@ namespace MarsRover.Business
         private IRover currentRover;
 
         /// <inheritdoc />
-        public void SetPositionRover(int pointX, int pointY, string direction)
+        public void SetPositionRover(int pointX, int pointY, char direction)
         {
             if (pointX > this.MaxX)
                 throw new ArgumentOutOfRangeException("the x point sent is outside the surface.");
@@ -34,7 +34,7 @@ namespace MarsRover.Business
                 throw new ArgumentOutOfRangeException("the y point sent is outside the surface.");
 
             Point currengtPosition = new Point(pointX, pointY);
-            Direction currengtDirection = (Direction)Enum.Parse(typeof(Direction), direction);
+            Direction currengtDirection = (Direction)Enum.Parse(typeof(Direction), direction.ToString());
             currentRover = new Rover(currengtPosition, currengtDirection);
             rovers.Add(currentRover);
         }
@@ -71,7 +71,7 @@ namespace MarsRover.Business
             return sb.ToString();
         }
         /// <inheritdoc />
-        public string GetCurrentgRoverLocations()
+        public string GetCurrentRoverLocations()
         {
             return currentRover.GetLocation();
         }
