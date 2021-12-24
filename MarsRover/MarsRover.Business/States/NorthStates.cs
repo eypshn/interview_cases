@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MarsRover.Business.States
 {
-    internal class NorthStates : IRoverState
+    public class NorthStates : IRoverState
     {
         public NorthStates(Point point)
         {

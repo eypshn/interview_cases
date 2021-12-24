@@ -39,7 +39,7 @@ namespace MarsRover.Test
         [InlineData(1, 3, "N", 'L', "13W")]
         [InlineData(2, 4, "E", 'R', "24S")]
         [InlineData(3, 4, "S", 'M', "33S")]
-        public void SetPositionRover_ShouldChangeDirection_WhenRoverTurn(int x, int y, string direction, char command, string expected)
+        public void RedirectRover_ShouldChangeDirection_WhenRoverTurn(int x, int y, string direction, char command, string expected)
         {
             Point currentPosition = new Point(x, y);
             Direction currengtDirection = (Direction)Enum.Parse(typeof(Direction), direction);
@@ -52,6 +52,17 @@ namespace MarsRover.Test
                 rover.MoveForward();
 
             Assert.Equal(expected, rover.GetLocation());
+        }
+
+        [Fact]
+        public void GetLocation_ShouldAssertTrue_WhenInitializeRover()
+        {
+            Point currentPosition = new Point(5, 5);
+            Direction currengtDirection = (Direction)Enum.Parse(typeof(Direction), "N");
+            IRover rover = new Rover(currentPosition, currengtDirection);
+
+            string expectedResult = $"{currentPosition.X}{currentPosition.Y}{currengtDirection}";
+            Assert.Equal(expectedResult, rover.GetLocation());
         }
     }
 }
